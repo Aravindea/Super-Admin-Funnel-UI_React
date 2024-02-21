@@ -21,9 +21,9 @@
   position: relative;
 }
 .totalCandidateLeadsFunnelB {
-  width: 459px;
-  height: 52px;
+  width: 252px;
   position: relative;
+  height: 52px;
   z-index: 0;
 }
 .div {
@@ -40,31 +40,30 @@
   align-items: center;
 }
 .totalCandidateLeadsDataTex {
-  width: 522px;
+  width: 282px;
   margin: 0 !important;
   position: absolute;
-  top: calc(50% - 20.5px);
-  left: calc(50% - 261px);
+  top: calc(50% - 20.6px);
+  left: calc(50% - 141px);
   justify-content: flex-start;
   z-index: 1;
 }
 .totalCandidateLeads {
   align-self: stretch;
-  height: 52px;
   justify-content: center;
   position: relative;
   gap: 10px 0;
   opacity: 1;
 }
 .totalCandidateLeads.animate {
-  animation: 1s ease 0s 1 normal forwards scale-up;
+  animation: 1s ease 0.4s 1 normal forwards scale-up;
 }
+.registered:hover .registeredBarIcon,
 .totalCandidateLeads:hover .totalCandidateLeadsFunnelB {
   filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.15));
-  cursor: pointer;
 }
-.qualifiedCandidatesLeadFunn {
-  width: 407px;
+.qualifiedCandidatesLeadsFun {
+  width: 201px;
   position: relative;
   height: 52px;
   z-index: 0;
@@ -74,12 +73,12 @@
   position: relative;
   font-weight: 500;
 }
-.qualifiedCandidateLeadsData {
-  width: 462px;
+.qualifiedCandidatesLeadsDat {
+  width: 222px;
   margin: 0 !important;
   position: absolute;
-  top: calc(50% - 20.1px);
-  left: calc(50% - 231px);
+  top: calc(50% - 21.2px);
+  left: calc(50% - 110.9px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,145 +95,15 @@
   opacity: 1;
 }
 .qualifiedCandidatesLeads.animate {
-  animation: 1s ease 0.1s 1 normal forwards scale-up;
-}
-.companySelected:hover .companySelectedFunnelBar,
-.interviewAttended:hover .interviewAttendedFunnelBar,
-.interviewScheduled:hover .interviewScheduledFunnelBar,
-.joined:hover .offerAcceptedFunnelBar,
-.offerAccepted:hover .offerAcceptedFunnelBar,
-.qualifiedCandidatesLeads:hover .qualifiedCandidatesLeadFunn,
-.registered:hover .registeredFunnelBar {
-  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.15));
-}
-.registeredFunnelBar {
-  width: 354px;
-  position: relative;
-  height: 52px;
-  z-index: 0;
-}
-.registered,
-.registeredDataText {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.registeredDataText {
-  width: 402px;
-  margin: 0 !important;
-  position: absolute;
-  top: calc(50% - 20.6px);
-  left: calc(50% - 200.9px);
-  justify-content: flex-start;
-  z-index: 1;
-}
-.registered {
-  align-self: stretch;
-  justify-content: center;
-  position: relative;
-  opacity: 1;
-}
-.registered.animate {
-  animation: 1s ease 0.2s 1 normal forwards scale-up;
-}
-.interviewScheduledFunnelBar {
-  width: 304px;
-  position: relative;
-  height: 46px;
-  z-index: 0;
-}
-.interviewScheduled,
-.interviewScheduledData {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.interviewScheduledData {
-  width: 342px;
-  margin: 0 !important;
-  position: absolute;
-  top: calc(50% - 20.1px);
-  left: calc(50% - 170.9px);
-  justify-content: flex-start;
-  z-index: 1;
-}
-.interviewScheduled {
-  align-self: stretch;
-  justify-content: center;
-  position: relative;
-  opacity: 1;
-}
-.interviewScheduled.animate {
-  animation: 1s ease 0.3s 1 normal forwards scale-up;
-}
-.interviewAttendedFunnelBar {
-  width: 252px;
-  position: relative;
-  height: 52px;
-  z-index: 0;
-}
-.interviewAttended,
-.interviewAttendedDataText {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.interviewAttendedDataText {
-  width: 282px;
-  margin: 0 !important;
-  position: absolute;
-  top: calc(50% - 20.6px);
-  left: calc(50% - 141px);
-  justify-content: flex-start;
-  z-index: 1;
-}
-.interviewAttended {
-  align-self: stretch;
-  justify-content: center;
-  position: relative;
-  gap: 10px 0;
-  opacity: 1;
-}
-.interviewAttended.animate {
-  animation: 1s ease 0.4s 1 normal forwards scale-up;
-}
-.companySelectedFunnelBar {
-  width: 201px;
-  position: relative;
-  height: 52px;
-  z-index: 0;
-}
-.companySelected,
-.companySelectedDataText {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.companySelectedDataText {
-  width: 222px;
-  margin: 0 !important;
-  position: absolute;
-  top: calc(50% - 21.2px);
-  left: calc(50% - 110.9px);
-  justify-content: flex-start;
-  z-index: 1;
-}
-.companySelected {
-  align-self: stretch;
-  justify-content: center;
-  position: relative;
-  opacity: 1;
-}
-.companySelected.animate {
   animation: 1s ease 0.5s 1 normal forwards scale-up;
 }
-.offerAcceptedFunnelBar {
+.registeredBarIcon {
   width: 153px;
   position: relative;
   height: 52px;
   z-index: 0;
 }
-.offerAcceptedDataText {
+.registeredDataText {
   width: 168px;
   margin: 0 !important;
   position: absolute;
@@ -244,25 +113,20 @@
   z-index: 1;
 }
 .funnel,
-.joined,
-.offerAccepted,
-.offerAcceptedDataText {
+.registered,
+.registeredDataText {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.joined,
-.offerAccepted {
+.registered {
   align-self: stretch;
   justify-content: center;
   position: relative;
   opacity: 1;
 }
-.offerAccepted.animate {
+.registered.animate {
   animation: 1s ease 0.6s 1 normal forwards scale-up;
-}
-.joined.animate {
-  animation: 1s ease 0.7s 1 normal forwards scale-up;
 }
 .funnel {
   flex: 1;
@@ -286,33 +150,6 @@
   background-color: var(--color-honeydew);
   height: 24px;
 }
-.interviewScheduled2 {
-  background-color: var(--color-aquamarine);
-}
-.companySelected2,
-.interviewAttended2,
-.interviewScheduled2 {
-  width: 24px;
-  position: relative;
-  height: 24px;
-}
-.interviewAttended2 {
-  background-color: var(--color-wheat);
-}
-.companySelected2 {
-  background-color: #fed796;
-}
-.joined2,
-.offerAccepted2 {
-  width: 24px;
-  position: relative;
-  background-color: var(--color-peachpuff);
-  height: 25px;
-}
-.joined2 {
-  background-color: var(--color-darksalmon);
-  height: 24px;
-}
 .labelsColor {
   display: flex;
   flex-direction: column;
@@ -320,7 +157,6 @@
   justify-content: flex-start;
   gap: 26px 0;
 }
-.offerAccepted3,
 .qualifiedCandidates2,
 .registered3,
 .totalCandidateLeads3 {
@@ -331,17 +167,12 @@
   height: 21px;
   flex-shrink: 0;
 }
-.offerAccepted3,
 .qualifiedCandidates2,
 .registered3 {
   height: 22px;
 }
-.offerAccepted3,
 .registered3 {
   height: 21px;
-}
-.offerAccepted3 {
-  height: 22px;
 }
 .labelsNames {
   flex: 1;
@@ -405,7 +236,7 @@
   justify-content: flex-start;
   gap: 50px 0;
 }
-.superAdminFunnelPage {
+.superAdminFunnelPage2 {
   width: 100%;
   position: relative;
   background-color: var(--color-white);
@@ -414,7 +245,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-61xl) var(--padding-61xl) 180px;
+  padding: var(--padding-61xl) var(--padding-61xl) 458px;
   box-sizing: border-box;
   text-align: center;
   font-size: var(--font-size-3xl);
@@ -428,7 +259,7 @@
   .funnelContent {
     gap: 0 80px;
   }
-  .superAdminFunnelPage {
+  .superAdminFunnelPage2 {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;

@@ -6,6 +6,9 @@ import {
   useLocation,
 } from "react-router-dom";
 import SuperAdminFunnelPage from "./pages/SuperAdminFunnelPage";
+import SuperAdminFunnelPage1 from "./pages/SuperAdminFunnelPage1";
+import SuperAdminFunnelPage2 from "./pages/SuperAdminFunnelPage2";
+import SuperAdminFunnelPage3 from "./pages/SuperAdminFunnelPage3";
 
 function App() {
   const action = useNavigationType();
@@ -27,6 +30,18 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/super-admin-funnel-page-2":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/super-admin-funnel-page-3":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/super-admin-funnel-page-4":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -34,7 +49,7 @@ function App() {
     }
 
     if (metaDescription) {
-      const metaDescriptionTag = document.querySelector(
+      const metaDescriptionTag: HTMLMetaElement | null = document.querySelector(
         'head > meta[name="description"]'
       );
       if (metaDescriptionTag) {
@@ -46,6 +61,18 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<SuperAdminFunnelPage />} />
+      <Route
+        path="/super-admin-funnel-page-2"
+        element={<SuperAdminFunnelPage1 />}
+      />
+      <Route
+        path="/super-admin-funnel-page-3"
+        element={<SuperAdminFunnelPage2 />}
+      />
+      <Route
+        path="/super-admin-funnel-page-4"
+        element={<SuperAdminFunnelPage3 />}
+      />
     </Routes>
   );
 }

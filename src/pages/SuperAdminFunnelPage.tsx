@@ -1,7 +1,7 @@
-import { useEffect } from "react";
+import { FunctionComponent, useEffect } from "react";
 import styles from "./SuperAdminFunnelPage.module.css";
 
-const SuperAdminFunnelPage = () => {
+const SuperAdminFunnelPage: FunctionComponent = () => {
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
       "[data-animate-on-scroll]"
